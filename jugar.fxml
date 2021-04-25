@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="604.0" style="-fx-background-color: fff444;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox VBox.vgrow="ALWAYS">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="JUGAR" textAlignment="CENTER" wrappingWidth="522.9239492416382">
+               <font>
+                  <Font name="Colonna MT" size="64.0" />
+               </font>
+            </Text>
+            <Button mnemonicParsing="false" text="PERFIL" />
+         </children>
+      </HBox>
+      <HBox minHeight="-Infinity" prefHeight="170.0" prefWidth="500.0" VBox.vgrow="ALWAYS">
+         <children>
+            <VBox alignment="CENTER" prefHeight="183.0" prefWidth="319.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <HBox prefHeight="114.0" prefWidth="246.0">
+                     <children>
+                        <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="VS IA" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets right="5.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="1 VS 1" HBox.hgrow="ALWAYS">
+                           <HBox.margin>
+                              <Insets left="5.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox alignment="TOP_RIGHT" prefHeight="353.0" prefWidth="300.0" HBox.hgrow="ALWAYS">
+               <children>
+                  <GridPane alignment="CENTER_RIGHT" hgap="10.0" nodeOrientation="RIGHT_TO_LEFT" prefWidth="117.0" vgap="10.0">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="55.0" minHeight="10.0" prefHeight="54.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="52.0" minHeight="10.0" prefHeight="52.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <Button alignment="CENTER" mnemonicParsing="false" prefHeight="33.0" prefWidth="106.0" text="RANK" />
+                        <Button alignment="CENTER" layoutX="10.0" layoutY="21.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="106.0" text="HISTORIAL" GridPane.rowIndex="1" />
+                        <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="106.0" text="N PARTIDES" GridPane.rowIndex="2" />
+                        <Button mnemonicParsing="false" prefHeight="33.0" prefWidth="106.0" text="STATS" GridPane.rowIndex="3" />
+                     </children>
+                  </GridPane>
+               </children></VBox>
+         </children>
+         <VBox.margin>
+            <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox prefHeight="109.0" prefWidth="604.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Button mnemonicParsing="false" text="MODE">
+               <HBox.margin>
+                  <Insets left="60.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+   </padding>
+</VBox>
